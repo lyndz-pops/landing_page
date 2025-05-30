@@ -122,10 +122,40 @@ ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 40px;
 }
 
 .text p {
     text-wrap: wrap;
     width: 136px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.italic {
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.Thor {
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
 }
