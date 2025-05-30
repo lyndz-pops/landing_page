@@ -159,3 +159,59 @@ ul {
     text-align: right;
     margin: 0;
 }
+
+
+.action {
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 50px 120px 50px 120px;
+    margin: 100px 250px 100px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.callclick {
+    width: 400px;
+}
+
+.call {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.click {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.signup2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border: solid 2px;
+    border-color: white;
+    box-shadow: none;
+    width: 100px;
+    height: 32px;
+    flex-shrink: 0;
+    background-color: #3882f6;
+    color: white;
+    padding: 4px;
+    border-radius: 12px;
+    margin: 0;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
