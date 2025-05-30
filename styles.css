@@ -1,10 +1,12 @@
 
 .header {
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1f2937;
 }
-
-
 
 
 .header-logo {
@@ -25,4 +27,38 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+
+
+.top_part {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1f2937;
+}
+
+.top_part_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.head2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.flowers3 {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
 }
