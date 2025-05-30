@@ -88,3 +88,44 @@ ul {
     display: flex;
     align-items: flex-end;
 }
+
+
+
+.info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imgs img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: solid 3px;
+    border-color: #3882f6;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text p {
+    text-wrap: wrap;
+    width: 136px;
+    text-align: center;
+}
